@@ -13,6 +13,7 @@ const SkillContainer = () => {
                <div className='text-sm text-white/60 leading-5'>
                 <p>Git & GitHub</p> 
                 <p>Zustand</p> 
+                <p>GSAP</p>
                 <p>Responsive Design</p> 
                 <p>Performance Optimization</p> 
                </div>
