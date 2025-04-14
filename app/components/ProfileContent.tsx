@@ -31,9 +31,7 @@ const ProfileContent = () => {
             <br/>
             <ParagraphAnim words={words3} delay={2.8} />
             <br/>
-            <div className='uppercase font-semibold text-sm mt-8 text-7/90 ml-2'>
-                skills:
-            </div>
+            
             {/* skills */}
             <SkillContainer />
             
