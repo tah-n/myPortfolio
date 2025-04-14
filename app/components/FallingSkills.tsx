@@ -1,11 +1,7 @@
 'use client'
-import { Html } from '@react-three/drei';
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import SkillBoxes from './SkillBoxes';
-import * as THREE from 'three';
-import { useFrame } from '@react-three/fiber';
 import { Physics, RigidBody } from '@react-three/rapier';
-import gsap from 'gsap';
 
 const FallingSkills = () => {
 

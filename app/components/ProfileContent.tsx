@@ -24,13 +24,16 @@ const ProfileContent = () => {
 
     return (
     <Container closeButton={handleClose}>
-        <div className='w-full h-[90vh] p-5 py-9 overflow-y-auto no-scrollbar tracking-wider text-7/80 name'>
+        <div className='w-full h-[90vh] p-5 py-9 overflow-y-auto no-scrollbar tracking-wider text-7/80'>
             <ParagraphAnim words={words1} delay={0}/>
             <br/>
-            <ParagraphAnim words={words2} delay={1.3} />
+            <ParagraphAnim words={words2} delay={1.4} />
             <br/>
-            <ParagraphAnim words={words3} delay={2.7} />
-            
+            <ParagraphAnim words={words3} delay={2.8} />
+            <br/>
+            <div className='uppercase font-semibold text-sm mt-8 text-7/90 ml-2'>
+                skills:
+            </div>
             {/* skills */}
             <SkillContainer />
             
